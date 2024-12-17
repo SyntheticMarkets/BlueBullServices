@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "bluebullservices.renderforestsites.com/*",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/bluebullservices.renderforestsites.com/index.html"
+      "dest": "/index.html"
     }
   ]
 }
